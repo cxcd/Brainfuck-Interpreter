@@ -6,6 +6,6 @@ A simple Brainfuck interpreter written in C. A program that outputs "Hello World
 Compile and run in the command line
 ```
 $ gcc bf.c -o bf
-$ ./bf helloworld.bf
+$ ./bf helloworld.b
 Hello World!
 ```
