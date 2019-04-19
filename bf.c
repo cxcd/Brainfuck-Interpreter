@@ -91,7 +91,7 @@ int main(int argc, char **argv) {
 	size = ftell(fp);
 	rewind(fp); /* Set stream to beginning */
 	buffer = malloc((size + 1) * sizeof(*buffer)); /* Allocate buffer */
-	fread(buffer, size, 1, fp);	/* Read the file into the buffer */
+	fread(buffer, size, 1, fp); /* Read the file into the buffer */
 	buffer[size] = '\0'; /* Null terminate the buffer */
 	fclose(fp); /* Close the file */
 	
