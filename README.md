@@ -1,4 +1,4 @@
-# Brainfuck-Interpreter
+# Brainfuck Interpreter
 
 A simple Brainfuck interpreter written in C. A program that outputs "Hello World!" is also included.
 
